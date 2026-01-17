@@ -2,6 +2,13 @@
   "buildCommand": "npm run build",
   "installCommand": "npm install",
   "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/project",
+      "destination": "https://www.canva.com/design/DAG-U6MMl5c/qFJH7DQxzuGl5kjrL03w4w/edit",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
